@@ -9,6 +9,6 @@ function showMap(){
     });
     map = new google.maps.Map(document.getElementById('map'),{
         center:{lat: lat, lng: long},
-        zoom:14
+        zoom:15
     });
 }
