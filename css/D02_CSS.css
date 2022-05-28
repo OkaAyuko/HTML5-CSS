@@ -1,0 +1,54 @@
+/* CSS */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+li {
+    padding: 2em;
+}
+
+h1 {
+    text-shadow: 3px 3px 3px gray;
+    color: peru;
+    text-indent: 2rem;
+}
+
+
+/* defines the class name of the div . tag */
+
+.content {
+    margin: auto;
+}
+
+
+/* defines the id selector */
+
+#title {
+    font-style: italic;
+    text-align: justify;
+}
+
+a:hover {
+    background-color: darkred;
+    color: gainsboro;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+p::first-letter {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px grey;
+    color: orange;
+}
